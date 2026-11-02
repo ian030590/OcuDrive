@@ -1,0 +1,11 @@
+.tools/
+.tmp/
+build/
+dist/
+godot/.godot/
+godot/embedded/*.bin
+godot/embedded/*.sha256
+__pycache__/
+*.pyc
+.venv/
+*.spec

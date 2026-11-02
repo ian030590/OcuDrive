@@ -1,0 +1,7 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>OcuDrive 眼動校正</title><link rel="stylesheet" href="/app.css"><script src="/app.js" defer></script></head>
+<body><main id="panel"><p class="product">OcuDrive / 眼動設定</p><h1 id="title">準備眼動裝置</h1><p id="intro">正在載入所選裝置的校正設定。</p><p id="status" role="status" aria-live="polite">讀取中…</p>
+<div id="webgazer-controls" hidden><p>請在駕駛訓練使用的同一個螢幕執行校正。保持坐姿、光線與頭部位置。九點各確認五次後，進行五點獨立驗證。</p><button id="start">開啟相機並開始九點校正</button><button id="reset" disabled>重做校正</button></div>
+<div id="sol-controls" hidden><p>先在 Chronus 完成眼鏡校正，保持手機的遠端監看預覽開啟。OcuDrive 四角必須顯示 IDs 0、1、2、3 的 ArUco 標記。四個標記同時可見時才會使用螢幕座標，遮擋後立即停止有效注視。</p><p>下方影像只在本機記憶體顯示，不錄影、不上傳。</p><img id="scene" alt="Sol 場景相機預覽，等待裝置傳入影像"><button id="verify-mapping">確認四角標記映射</button><button id="save-mapping">匯出標記配置</button><p id="mapping-status" role="status">等待四角標記。</p></div>
+<button id="stop" class="secondary">停止追蹤並關閉相機</button><p class="note">此視窗維持開啟才能追蹤。完成後返回 OcuDrive。任何失效或漏樣均保留為無效資料，不會補成實際眼動。</p></main>
+<section id="stage" hidden aria-label="注視點校正"><p id="instruction" role="status">看著目標，按空白鍵或點擊確認。</p><button id="target" aria-label="注視目標，按空白鍵確認">+</button></section></body></html>

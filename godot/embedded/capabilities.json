@@ -1,0 +1,11 @@
+{
+  "webgazer_bridge": true,
+  "tobii_bridge": true,
+  "sol_bridge": true,
+  "sol_vendor_sdk_included": false,
+  "sol_aruco_available": false,
+  "engine": "Godot_v4.7.1-stable_win64.exe",
+  "official_export_template": false,
+  "python_version": "3.14.7",
+  "version": "0.1.0"
+}
